@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+    background-color: black;
+}
+
+:root {
+    --primary: rgba(52, 51, 51, 0.929);
+    --secondary: rgba(18, 6, 6, 0.64);
+}
+
+.top{
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+  
+}
+
+.navbar{
+   
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 60%;
+}
+
+.logo {
+    background-image: url("netflix.png");
+    background-size: cover;
+    background-position: center;
+    height: 40px;
+    width: 150px;
+    margin-left: 1rem;
+    margin-top: .1rem;
+    
+}
+
+.nav-lang{
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    font-size: .8rem;
+    border-radius: 2px;
+
+}
+.nav-lang p{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.nav-sign{
+    color: white;
+    height: 30px;
+    width: 70px;
+    border: 1px solid white;
+    font-size: .9em;
+    border-radius: 2px;
+    background-color: #e50914;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-sign p{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.nav-sign:hover{
+    background-color: rgb(182, 49, 49);
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.content{
+    margin-top: 11rem;
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 3.5rem;
+}
+
+ .para1{
+    font-size: 1.6rem;
+}
+ .para2{
+    font-size: 1.2rem;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.email input{
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    padding-left: 1rem;
+    padding-right: 14rem;
+    font-size: .9rem;
+    background-color: rgba(27, 24, 24, 0.218);
+    color: white;
+    border: .8px solid white;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.email{
+    padding-right: 1rem;
+}
+.btn{
+    background-color: #e50914;
+    color: white;
+   border: none;
+   outline: none;
+   padding-top: .9rem;
+    padding-bottom: .9rem;
+    border-radius: 3px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(199, 43, 43);
+    cursor: pointer;
+    
+}
+
+.search i{
+    font-size: 1.2rem;
+}
+
+
+
+
+.second{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 6px solid rgb(68, 66, 66);
+}
+
+.second-img{
+    background: url("mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 25%;
+    
+    
+}
+
+.second-content{
+
+    color: white;
+    width: 35%;
+  
+}
+.second-content h2{
+    font-size: 3.5rem;
+   
+}
+
+.third{
+    border-top: 6px solid rgb(68, 66, 66);
+}
+
+.third-content{
+   
+    width: 43%;
+}
+.third-img{
+    background: url("children.png");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 35%;
+}
+.third-content h2{
+    font-size: 3.5rem;
+}
+
+.faq{
+    height: 1050px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 6px solid rgb(68, 66, 66);
+}
+
+.faq div span{
+    color: white;
+    font-size: 1.65rem;
+    padding: 2rem;
+    text-align: center;
+}
+.faq-txt{
+    position: relative;
+    top: -3.5rem;
+    margin-bottom: .8rem;
+}
+.faq h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+.faq .q1, .q2, .q3, .q4, .q5, .q6{
+    position: relative;
+    top: -3.5rem;
+  border: none;
+  outline: none;
+    background-color: rgba(175, 172, 172, 0.218);
+    height: 90px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 1.4rem;
+    border-radius: 3px;
+}
+
+.faq .para p{
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+.para{
+    position: relative;
+    bottom: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+
+ .q1 i, .q2 i, .q3 i, .q4 i, .q5 i, .q6 i{
+    color: white;
+    position: absolute;
+    right: 0.8rem;
+    font-size: 1.5rem;
+    
+}
+
+.bottom{
+    position: relative;
+    bottom: 1rem;
+}
+
+
+.foot{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  padding-top: 3rem;
+    border-top: 6px solid rgb(68, 66, 66);
+}
+
+.foot p{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+.foot-txt{
+    position: relative;
+    align-self: flex-start;
+    left: 7rem;
+}
+.foot-col{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 7rem;
+    font-size: .9rem;
+    width: 80%;
+}
+
+.foot-col a:hover{
+cursor: pointer;
+}
+
+.col1 ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    }
+.col2 ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    }
+.col3 ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    }
+
+.col1 ul li{
+    list-style: none;
+margin-top: 1rem;
+    }
+.col2 ul li{
+   list-style: none;
+margin-top: 1rem;
+    }
+.col3 ul li{
+    list-style: none;
+    margin-top: 1rem;
+    }
+
+.bottom{
+    position: relative;
+    bottom: 8rem;
+    left: 7.2rem;;
+
+}
+
+.bottom span{
+    color: white;
+    font-size: .8rem;
+}
+
